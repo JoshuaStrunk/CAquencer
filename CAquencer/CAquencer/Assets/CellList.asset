@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6143b3f829160dd46aa4fc5d8d7ab6d5, type: 3}
+  m_Name: CellList
+  m_EditorClassIdentifier: 
+  cellList:
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    id: 0
+    patterns:
+    - id: 1
+      pattern: 01000000ffffffffffffffffffffffffffffffff
+    - id: 2
+      pattern: ffffffff02000000ffffffffffffffffffffffff
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    id: 1
+    patterns: []
+  - color: {r: .0733131692, g: .51740545, b: .83088237, a: 1}
+    id: 2
+    patterns: []
