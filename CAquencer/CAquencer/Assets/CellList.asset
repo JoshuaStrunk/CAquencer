@@ -21,7 +21,20 @@ MonoBehaviour:
       pattern: ffffffff02000000ffffffffffffffffffffffff
   - color: {r: 1, g: 0, b: 0, a: 1}
     id: 1
-    patterns: []
+    patterns:
+    - id: 1
+      pattern: 01000000ffffffffffffffffffffffffffffffff
+    - id: 2
+      pattern: ffffffff02000000ffffffffffffffffffffffff
   - color: {r: .0733131692, g: .51740545, b: .83088237, a: 1}
     id: 2
-    patterns: []
+    patterns:
+    - id: 1
+      pattern: 01000000ffffffffffffffffffffffffffffffff
+    - id: 2
+      pattern: ffffffff02000000ffffffffffffffffffffffff
+  - color: {r: .0681228489, g: .926470578, b: .464738756, a: 1}
+    id: 3
+    patterns:
+    - id: 3
+      pattern: ffffffffffffffffffffffffffffffffffffffff

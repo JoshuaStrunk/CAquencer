@@ -40,7 +40,9 @@ public class CAController : MonoBehaviour {
 	}
 
 	void SequencedEvent() {
-		currentSet.CopyTo(oldSet, 0);
+		for(int i=0; i < currentSet.Length; i++) {
+			oldSet[i] = currentSet[i];
+		}
 		int l = currentSet.Length;
 		for(int i=0; i < l; i++) {
 			currentSet[i] = patternMatch(i);
@@ -78,5 +80,5 @@ public class CAController : MonoBehaviour {
 		}
 		return 0;
 	}
-
+	
 }

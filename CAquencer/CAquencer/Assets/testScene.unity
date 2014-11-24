@@ -346,8 +346,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellList: {fileID: 11400000, guid: 37e3a6ee889442843927e7e84674cd90, type: 2}
-  startingSet: 0100000000000000000000000100000000000000000000000000000000000000
-  sourceTrack: {fileID: 0}
+  startingSet: 0300000001000000000000000000000000000000000000000000000000000000
+  sourceTrack: {fileID: 8300000, guid: 717e7b55afb8663479a4baeb7f0487cb, type: 3}
   tracks:
   - {fileID: 0}
   - {fileID: 0}
