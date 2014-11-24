@@ -8,6 +8,9 @@ public class CAController : MonoBehaviour {
 	public int[] startingSet;
 	public AudioClip sourceTrack;
 	public AudioSource[] tracks;
+	public float pitchStep = .5f;
+	public float startPitch = 1f;
+	public float volume = .5f;
 
 	int[] currentSet;
 	int[] oldSet;
@@ -23,8 +26,8 @@ public class CAController : MonoBehaviour {
 		for(int i=0; i<currentSet.Length; i++){
 			tracks[i] = gameObject.AddComponent<AudioSource>() as AudioSource;
 			tracks[i].clip = sourceTrack;
-			tracks[i].pitch = i *.5f + .5f;
-			tracks[i].volume = .5f;
+			tracks[i].pitch = i * pitchStep + startPitch;
+			tracks[i].volume = volume;
 		}
 	}
 	
