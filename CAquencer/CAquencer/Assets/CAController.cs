@@ -136,23 +136,23 @@ public class CAController : MonoBehaviour {
 		}
 
 		for(int i=0; i<cellList.cellList.Count; i++) {
-			if(GUI.Button(new Rect(Screen.width/2 - 25*cellList.cellList.Count + i*cellWidth, 0+ offsetY, cellWidth, cellHeigth), "", cellColors[i])) {
+			if(GUI.Button(new Rect(Screen.width/2 - (cellWidth/2)*cellList.cellList.Count + i*cellWidth, 0+ offsetY, cellWidth, cellHeigth), "", cellColors[i])) {
 				selectedBrush = i;
 			}
 		}
 		for(int i=0; i<16; i++) {
 		   for( int j=0; j<currentSet.Length; j++) {
-				GUI.Box(new Rect(i*cellWidth, j*cellHeigth+100+ offsetY, cellWidth, cellHeigth), "", cellColors[sets[i,j]]);
+				GUI.Box(new Rect(Screen.width/2 - (cellWidth/2)*16 +i*cellWidth, j*cellHeigth+100+ offsetY, cellWidth, cellHeigth), "", cellColors[sets[i,j]]);
 			}
 		}
 
 
 		for(int i=0; i<currentSet.Length; i++) {
-			if(GUI.Button(new Rect(setNum*cellWidth, i*cellHeigth+100+ offsetY, cellWidth, cellHeigth), "", cellColors[oldSet[i].Last()])){
+			if(GUI.Button(new Rect(Screen.width/2 - (cellWidth/2)*16 +setNum*cellWidth, i*cellHeigth+100+ offsetY, cellWidth, cellHeigth), "", cellColors[oldSet[i].Last()])){
 			}
 		}
 		for(int i=0; i<currentSet.Length; i++) {
-			if(GUI.Button(new Rect(((setNum+1)%16)*cellWidth, i*cellHeigth+100+ offsetY, cellWidth, cellHeigth), "", cellBright[currentSet[i].Last ()])){
+			if(GUI.Button(new Rect( Screen.width/2 - (cellWidth/2)*16 + ((setNum+1)%16)*cellWidth, i*cellHeigth+100+ offsetY, cellWidth, cellHeigth), "", cellBright[currentSet[i].Last ()])){
 				List<int> temp = new List<int>();
 				temp.Add (0);
 				if(selectedBrush != 0)

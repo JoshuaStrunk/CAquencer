@@ -16,29 +16,47 @@ MonoBehaviour:
     id: 0
     patterns:
     - id: 1
-      pattern: 01000000ffffffffffffffffffffffffffffffff
+      pattern: 0100000000000000000000000000000000000000
     - id: 2
-      pattern: ffffffff02000000ffffffffffffffffffffffff
+      pattern: 0000000002000000000000000000000000000000
     playNote: 0
   - color: {r: 1, g: 0, b: 0, a: 1}
     id: 1
-    patterns:
-    - id: 1
-      pattern: 01000000ffffffffffffffffffffffffffffffff
-    - id: 2
-      pattern: ffffffff02000000ffffffffffffffffffffffff
+    patterns: []
     playNote: 1
-  - color: {r: .0733131692, g: .51740545, b: .83088237, a: 1}
+  - color: {r: .713235259, g: .403817028, b: .403817028, a: 1}
     id: 2
-    patterns:
-    - id: 1
-      pattern: 01000000ffffffffffffffffffffffffffffffff
-    - id: 2
-      pattern: ffffffff02000000ffffffffffffffffffffffff
+    patterns: []
     playNote: 1
   - color: {r: .0681228489, g: .926470578, b: .464738756, a: 1}
     id: 3
-    patterns:
-    - id: 3
-      pattern: ffffffffffffffffffffffffffffffffffffffff
+    patterns: []
+    playNote: 1
+  - color: {r: .198932096, g: .382352948, b: .140570939, a: 1}
+    id: 4
+    patterns: []
+    playNote: 1
+  - color: {r: .777442873, g: .0434688404, b: .985294104, a: 1}
+    id: 5
+    patterns: []
+    playNote: 0
+  - color: {r: .272741884, g: .145328715, b: .308823526, a: 1}
+    id: 6
+    patterns: []
+    playNote: 1
+  - color: {r: 0, g: .163539588, b: .948529422, a: 1}
+    id: 7
+    patterns: []
+    playNote: 1
+  - color: {r: .181390584, g: .194286972, b: .448529422, a: 1}
+    id: 8
+    patterns: []
+    playNote: 1
+  - color: {r: .936408222, g: .948529422, b: .0697448179, a: 1}
+    id: 9
+    patterns: []
+    playNote: 1
+  - color: {r: .384172559, g: .397058845, b: .16349481, a: 1}
+    id: 10
+    patterns: []
     playNote: 1
