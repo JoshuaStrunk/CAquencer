@@ -25,7 +25,8 @@ public class SequencerController : MonoBehaviour {
 		timing += Time.deltaTime;
 		if(timing > timeBetweenBeats) {
 			SendMessage("SequencedEvent");
-			transform.GetChild(0).SendMessage("SequencedEvent");
+			for(int i=0; i<transform.childCount; i++) 
+				transform.GetChild(i).SendMessage("SequencedEvent");
 			timing -= timeBetweenBeats;
 		}
 	}

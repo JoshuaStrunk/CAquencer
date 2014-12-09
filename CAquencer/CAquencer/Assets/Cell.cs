@@ -19,6 +19,7 @@ public class Cell {
 	public Color color;
 	public int id;
 	public List<Pattern> patterns;
+	public bool playNote = true;
 
 	public Cell() {
 		color = Color.black;

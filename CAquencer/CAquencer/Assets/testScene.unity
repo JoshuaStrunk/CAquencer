@@ -275,20 +275,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellList: {fileID: 11400000, guid: 37e3a6ee889442843927e7e84674cd90, type: 2}
+  cellHeigth: 25
+  cellWidth: 50
   startingSet: 0200000000000000000000000000000000000000000000000000000000000000
   sourceTrack: {fileID: 8300000, guid: 346ff8f041bb0964f9ccacdc65edd7a4, type: 3}
-  tracks:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  pitchStep: .125
-  startPitch: 1
-  volume: .330000013
+  clips:
+  - {fileID: 8300000, guid: 2df6fed0b08a0ad449c251fb0ef3dc1c, type: 3}
+  - {fileID: 8300000, guid: eb9490252b264c14d87cf10249bb0d4a, type: 3}
+  - {fileID: 8300000, guid: 01c747e9fdf62b64f83701b9fe6554ff, type: 3}
+  - {fileID: 8300000, guid: 84affc26b8cffce42be2f1bdb354f0d9, type: 3}
+  - {fileID: 8300000, guid: ddfcead223c66274e8a2bcf13dc35f2a, type: 3}
+  - {fileID: 8300000, guid: 4468cdeb1ef45324c8a32031db0f817e, type: 3}
+  - {fileID: 8300000, guid: d7b4e2980749c85439aa01aabeaee1f1, type: 3}
+  - {fileID: 8300000, guid: e1d629da486f00e4e8d7c50e6613b8e0, type: 3}
+  pitchStep: .100000001
+  startPitch: .949999988
+  volume: .5
 --- !u!4 &1999988127
 Transform:
   m_ObjectHideFlags: 0
