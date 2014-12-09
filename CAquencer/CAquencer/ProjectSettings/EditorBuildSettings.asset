@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/testScene.unity
   - enabled: 1
     path: Assets/celleditorScene.unity
+  - enabled: 1
+    path: Assets/AristStatementScene.unity
