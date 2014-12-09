@@ -11,4 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ba9ae9c20c5af498b88da26dbfc2eb, type: 3}
   m_Name: ArtistStatement
   m_EditorClassIdentifier: 
-  text: Well let me see
+  text: 'CAquencer hopes to give the audience a new insight into complex cellular
+    automaton. It combines playful visuals and audio to lure the viewer in but underneath
+    it is a 1D cellular automaton with 1024 possible states per cell and 1,114,942,319,124,480
+    possible input states. With the way it breaks up the states and input states it
+    is my hope that a viewer might be able to create systems far to complex for them
+    to visualize if they were not simplified. '

@@ -40,6 +40,7 @@ public class CAController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		cellList = GameObject.Find ("Storage").GetComponent<storageController>().cellList;
 		/*
 		currentSet = new int[startingSet.Length];
 		oldSet = new int[startingSet.Length];

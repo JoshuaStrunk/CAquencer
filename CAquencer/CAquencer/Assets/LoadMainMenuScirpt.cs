@@ -4,6 +4,6 @@ using System.Collections;
 public class LoadMainMenuScirpt : MonoBehaviour {
 
 	public void load() {
-		Application.LoadLevel(0);
+		Application.LoadLevel(1);
 	}
 }

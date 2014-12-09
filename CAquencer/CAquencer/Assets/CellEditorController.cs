@@ -10,6 +10,7 @@ public class CellEditorController : MonoBehaviour {
 	Texture2D[] cellTextures;
 	// Use this for initialization
 	void Start () {
+		cellList = GameObject.Find ("Storage").GetComponent<storageController>().cellList;
 		cellTextures = new Texture2D[cellList.cellList.Count];
 		for(int i=0; i<cellList.cellList.Count; i++) {
 			cellTextures[i] = new Texture2D(25,25);
@@ -99,7 +100,7 @@ public class CellEditorController : MonoBehaviour {
 			GUILayout.EndHorizontal();
 		}
 		if(GUI.changed) {
-			//EditorUtility.SetDirty(cellList);
+			GameObject.Find ("Storage").GetComponent<storageController>().cellList = cellList;
 		}
 	}
 	

@@ -6,7 +6,7 @@ public class savingTextScript : MonoBehaviour {
 
 	public ArtistStatment artistStatement;
 
-	public void saveTheFuckingText(){
+	public void saveText(){
 		artistStatement.text = GetComponent<InputField>().value;
 	}
 }
